@@ -1,2 +1,2 @@
-n_samples: 200
-cluster_type: "other" # Options: "kmeans", "human_labeled_clusters"
+n_samples: 300
+cluster_type: "kmeans" # Options: "kmeans", "human_labeled_clusters"

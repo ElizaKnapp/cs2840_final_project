@@ -99,7 +99,7 @@ for i in range(300):
   nn_arr.append(nearest_neighbor)
   # index of NN
   nn_text = X_joy_text_ref[nearest_neighbor]
-arr_n, bins = np.histogram(nn_arr, bins=range(200))
+arr_n, bins = np.histogram(nn_arr, bins=range(n_samples))
 
 non_empty_bins = arr_n[arr_n > 0]
 # Count non-empty bins
